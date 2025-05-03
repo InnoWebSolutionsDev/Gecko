@@ -1,0 +1,24 @@
+{
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "christian-kohler.path-intellisense",
+      "wix.vscode-import-cost",
+      "usernamehw.errorlens",
+      "coenraads.bracket-pair-colorizer-2",
+      "eamodio.gitlens",
+      "github.vscode-pull-request-github",
+      "mhutchie.git-graph",
+      "dsznajder.es7-react-js-snippets",
+      "bradlc.vscode-tailwindcss",
+      "heybourn.headwind",
+      "humao.rest-client",
+      "mikestead.dotenv",
+      "mtxr.sqltools",
+      "mtxr.sqltools-driver-pg",
+      "ritwickdey.liveserver",
+      "bierner.markdown-preview-enhanced",
+      "christian-kohler.npm-intellisense",
+      "rangav.vscode-thunder-client"
+    ]
+  }
+  
