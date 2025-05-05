@@ -2,9 +2,9 @@ import { FiPackage, FiTool, FiPhone } from "react-icons/fi";
 import { useState } from "react";
 
 const menuItems = [
-  { id: "productos", label: "Productos", icon: <FiPackage size={40} /> },
-  { id: "servicios", label: "Servicios", icon: <FiTool size={40} /> },
-  { id: "contacto", label: "Contacto", icon: <FiPhone size={40} /> },
+  { id: "productos", label: "Productos", icon: <FiPackage size={36} /> },
+  { id: "servicios", label: "Servicios", icon: <FiTool size={36} /> },
+  { id: "contacto", label: "Contacto", icon: <FiPhone size={36} /> },
 ];
 
 const SidebarMenu = () => {
