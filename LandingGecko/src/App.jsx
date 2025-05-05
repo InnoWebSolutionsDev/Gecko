@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Sidebar from './Components/Sidebar';
+import SidebarMenu from './Components/SidebarMenu';
 import Navbar from './Components/Navbar';
 import Home from './pages/Home';
 import Whatsapp from './Components/Whatsapp';
@@ -14,7 +14,8 @@ function App() {
   return (
     <div className="relative">
       <Navbar toggle={toggleSidebar} />
-      <Sidebar isOpen={isOpen} toggle={toggleSidebar} />
+      <SidebarMenu />
+
       <Whatsapp/>
       <main className="pt-16">
         <Home />
