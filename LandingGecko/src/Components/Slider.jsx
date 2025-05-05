@@ -10,7 +10,7 @@ const images = [
   "/slider/4.jpg",
 ];
 
-function Arrow({ className, style, onClick, direction }) {
+function Arrow({ style, onClick, direction }) {
   return (
     <button
       type="button"
@@ -51,23 +51,23 @@ const HeroSlider = () => {
 
   return (
     <section
-  className="w-full h-[80vh] sm:h-[90vh] md:h-screen bg-neutral-900 flex items-center justify-center relative"
-  id="hero"
->
-  <Slider {...settings} className="w-full h-full">
-    {images.map((src, idx) => (
-      <div key={idx} className="w-full h-[80vh] sm:h-[90vh] md:h-screen">
-        <img
-          src={src}
-          alt={`slide-${idx + 1}`}
-          className="object-cover w-full h-[80vh] sm:h-[90vh] md:h-screen"
-          style={{ filter: "brightness(0.7)" }}
-        />
-      </div>
-    ))}
-  </Slider>
-  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/60 to-transparent pointer-events-none" />
-</section>
+      className="w-full h-[35vh] sm:h-[60vh] md:h-[90vh] lg:h-screen min-h-[180px] bg-neutral-900 flex items-center justify-center relative"
+      id="hero"
+    >
+      <Slider {...settings} className="w-full h-full">
+        {images.map((src, idx) => (
+          <div key={idx} className="w-full h-[35vh] sm:h-[60vh] md:h-[90vh] lg:h-screen min-h-[180px]">
+            <img
+              src={src}
+              alt={`slide-${idx + 1}`}
+              className="object-cover w-full h-[35vh] sm:h-[60vh] md:h-[90vh] lg:h-screen min-h-[180px]"
+              style={{ filter: "brightness(0.7)" }}
+            />
+          </div>
+        ))}
+      </Slider>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/60 to-transparent pointer-events-none" />
+    </section>
   );
 };
 
