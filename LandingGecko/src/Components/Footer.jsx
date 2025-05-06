@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/logo.png";
 
 const Footer = () => (
-  <footer className="bg-neutral-800 border-t border-gray-700 py-6">
+  <footer className="bg-gray-100 border-t border-gray-700 py-6">
     <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
       <img src={logo} alt="Logo Gecko" className="h-10 mb-4 md:mb-0" />
       <ul className="flex space-x-8 font-bebas text-lg">

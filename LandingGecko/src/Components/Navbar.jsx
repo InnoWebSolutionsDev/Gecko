@@ -24,12 +24,17 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 bg-neutral-800 border-b border-gray-700 transition-transform duration-300 ${
+      className={`fixed top-0 left-0 w-full z-50 bg-gray-100 border-b border-gray-300 transition-transform duration-300 ${
         show ? "translate-y-0" : "-translate-y-full"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <img src={logo} alt="Logo Gecko" className="h-16" />
+      <img
+  src={logo}
+  alt="Logo Gecko"
+  className="h-18 transition duration-300 hover:drop-shadow-[0_0_16px_rgba(253,224,71,0.9)]" // amarillo
+/>
+
         {/* Desktop menu */}
         <ul className="hidden md:flex space-x-8 justify-end flex-1">
           <li>
