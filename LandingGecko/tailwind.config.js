@@ -1,8 +1,11 @@
-module.exports = {
+export default {
   theme: {
     extend: {
       fontFamily: {
         bebas: ['"Bebas Neue"', 'cursive'],
+      },
+      colors: {
+        verde: '#6cb37d', // verde
       },
     },
   },
@@ -13,5 +16,6 @@ module.exports = {
     'w-64',
     'border-green-500',
     'border-transparent',
+    'bg-verde',
   ],
 };
